@@ -1,0 +1,19 @@
+
+GET http://127.0.0.1:5001/bnxtstaging/us-central1/api
+
+
+###
+POST http://127.0.0.1:5001/bnxtstaging/us-central1/api
+Content-Type: application/json
+
+{
+    "name" :"Sohel",
+    "age" :23
+}
+
+
+###
+DELETE http://127.0.0.1:5001/bnxtstaging/us-central1/api
+
+###
+PUT  http://127.0.0.1:5001/bnxtstaging/us-central1/api
